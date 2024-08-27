@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernanda Sugiwa Darmawan | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Fernanda Sugiwa Darmawan</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <img src="Pemrograman.jpg" alt="Project 1">
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <img src="filim.jpg" alt="Project 2">
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <img src="image3.jpg" alt="Project 3">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I am Fernanda Sugiwa Darmawan, a passionate IoT Engineer, Web Developer, and Content Creator.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="about" class="about">
+        <h2 style="text-align: center; font-size: 2.5rem; color: #2c3e50; margin-bottom: 1.5rem;">About Me</h2>
+        <div style="max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+                Hello! I'm <span style="font-weight: bold;">Fernanda Sugiwa Darmawan</span>, a recent Engineering graduate from <span style="font-weight: bold;">Politeknik Elektronika Negeri Surabaya</span>. I specialize in IoT Engineering and have extensive experience in web development, covering everything from design to full implementation. In addition to my technical skills, I excel in managing social media platforms, especially TikTok, where I create engaging and educational content.
+            </p>
+            <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+                My strengths include <span style="font-weight: bold;">creative problem-solving</span>, <span style="font-weight: bold;">project management</span>, and <span style="font-weight: bold;">effective communication</span>. I'm also highly proficient in Microsoft Office (Word, Excel, PowerPoint) and have a strong background in software and hardware installation, enabling me to provide efficient technical solutions in various environments.
+            </p>
+            <a href="#contact" class="btn" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #2980b9; color: #fff; text-align: center; border-radius: 5px; text-decoration: none; font-size: 1.2rem;">Get in Touch</a>
+        </div>
+    </section>
+    
+    <style>
+        .about div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #216e9c;
+        }
+    </style>
+    
+    <section id="projects" class="projects">
+        <h2>Skills</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <h3>Internet Of Things</h3>
+                <p>Overview of IoT.</p>
+                <a href="iot.html" class="btn">Learn More</a>
+            </div>
+            <div class="project-item">
+                <h3>Web Developer</h3>
+                <p>Overview of web development.</p>
+                <a href="web-developer.html" class="btn">Learn More</a>
+            </div>
+            <div class="project-item">
+                <h3>Creator</h3>
+                <p>About content creators.</p>
+                <a href="creator.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Interested in working together or just want to say hello? You can reach me through the following platforms:</p>
+        <div class="contact-options">
+            <a href="https://www.linkedin.com/in/fernanda-sugiwa-darmawan-383403298/" target="_blank" class="contact-link linkedin">
+                <i class="fab fa-linkedin"></i> Connect on LinkedIn
+            </a>
+            <a href="https://wa.me/+6285706418126" target="_blank" class="contact-link whatsapp">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+            <a href="mailto:your-fsdnanda74@gmail.com" class="contact-link email">
+                <i class="fas fa-envelope"></i> Send an Email
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fernanda Sugiwa Darmawan. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Include Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 2000, // Gambar akan bergeser setiap 2 detik
+                disableOnInteraction: false, // Autoplay tidak berhenti ketika pengguna berinteraksi
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            effect: 'slide', // Efek slide
+        });
+    </script>
+</body>
+</html>
